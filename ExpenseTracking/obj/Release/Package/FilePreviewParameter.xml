@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ExpenseTracking" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^\\\\vmware-host\\shared\ folders\\documents\\visual\ studio\ 2013\\Projects\\ExpenseTracking\\ExpenseTracking\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^\\\\vmware-host\\shared\ folders\\documents\\visual\ studio\ 2013\\Projects\\ExpenseTracking\\ExpenseTracking\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="AzureDatabase-Web.config Connection String" description="" value="Data Source=expensetracking.database.windows.net;Initial Catalog=ExpenseTracking;Integrated Security=False;User ID=geniebazaartest;Password=genie@Mayank;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="\\\\vmware-host\\shared\ folders\\documents\\visual\ studio\ 2013\\Projects\\ExpenseTracking\\ExpenseTracking\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureDatabase']/@connectionString" />
+  </parameter>
+</parameters>

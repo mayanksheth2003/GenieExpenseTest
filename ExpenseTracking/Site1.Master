@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ExpenseTracking.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+       
+    <title></title>
+   <link rel="stylesheet" href="scripts/style.css" />
+    <link rel="stylesheet" href="scripts/jquery-ui.css" />
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:auto; margin: 0 10%;">
+                
+        <div style="text-align:center">
+            <h1>Expense Tracker</h1>
+        </div>
+        <div style="margin:0 auto; width:90%;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
